@@ -1,5 +1,5 @@
 # Projeto21
-Precificação Dinamica
+Precificação Dinamica com Multi-Armed Bandits
 
 
 
