@@ -4,8 +4,8 @@ Precificação Dinamica com Multi-Armed Bandits
 Implementando o artigo "Improving multi-armed bandits for pricing":
 https://trovo.faculty.polimi.it/01papers/trovo2018improving_b.pdf
 
-O link abaixo mostra o desempenho de clássicos algoritmos Bandits em ambiente
-estacionário e não estacionário:
+Para ver o desempenho de clássicos algoritmos Bandits em ambiente
+estacionário e não estacionário veja o link:
 https://github.com/dquail/NonStationaryBandit
 
 Considerando um ambiente não estacionário,temos o resultado para 3 modificações
