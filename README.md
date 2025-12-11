@@ -8,10 +8,8 @@ Para ver o desempenho de clássicos algoritmos Bandits em ambiente
 estacionário e não estacionário veja o link:
 https://github.com/dquail/NonStationaryBandit
 
-Considerando um ambiente não estacionário,temos o resultado para 3 modificações
-da curva de demanda no tempo e calibração no exato momento.
-É possível aumentar o número de modificações. O algoritmo poderia detectar a queda na recompensa e
-fazer a calibração automática dos braços, mas para simplificar isto não foi feito.
+Considerando um ambiente  estacionário,temos o resultado da recompensa
+no tempo.
 
 
 ![Recompensa no tempo](https://github.com/rodfloripa/Projeto21/blob/main/reward.png?raw=true)
