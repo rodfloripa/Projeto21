@@ -14,4 +14,4 @@ da curva de demanda no tempo e calibração no exato momento.
 fazer a calibração automática dos braços, mas para simplificar isto não foi feito.
 
 
-![Recompensa no tempo](https://github.com/rodfloripa/Projeto21/blob/main/img.png?raw=true)
+![Recompensa no tempo](https://github.com/rodfloripa/Projeto21/blob/main/reward.png?raw=true)
