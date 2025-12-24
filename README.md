@@ -8,8 +8,8 @@ Para ver o desempenho de clássicos algoritmos Bandits em ambiente
 estacionário e não estacionário veja o link:
 https://github.com/dquail/NonStationaryBandit
 
-Considerando um ambiente  estacionário,temos o resultado da recompensa
-no tempo.
+Considerando um ambiente  estacionário,em que cada braço representa o lucro obtido com um determinado preço de produto,
+temos o resultado da recompensa no tempo.
 
 Recompensas Médias dos Braços Modelados com a Distribuiçao Beta:
 
