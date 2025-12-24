@@ -17,6 +17,9 @@ Consideramos Xi,t a média empírica,na rodada t, dos resultados obtidos puxando
 xi,t sua realização
 </div>
 
+![Formula](https://github.com/rodfloripa/Projeto21/blob/main/formula.jpg?raw=true)
+
+
 Recompensas Médias dos Braços Modelados com a Distribuiçao Beta:
 
 Braço1: 0.3
