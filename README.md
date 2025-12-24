@@ -12,10 +12,15 @@ Considerando um ambiente  estacionário,temos o resultado da recompensa
 no tempo.
 
 Recompensas Médias dos Braços:
+
 Braço1: 0.3
+
 Braço2: 0.4
+
 Braço3: 0.5
+
 Braço4: 0.6
+
 Braço5: 0.7
 
 
