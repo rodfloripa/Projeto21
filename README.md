@@ -11,7 +11,7 @@ https://github.com/dquail/NonStationaryBandit
 Considerando um ambiente  estacionário,temos o resultado da recompensa
 no tempo.
 
-Recompensas Médias dos Braços:
+Recompensas Médias dos Braços Modelados com a Distribuiçao Beta:
 
 Braço1: 0.3
 
