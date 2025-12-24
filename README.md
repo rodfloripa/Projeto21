@@ -8,8 +8,14 @@ Para ver o desempenho de clássicos algoritmos Bandits em ambiente
 estacionário e não estacionário veja o link:
 https://github.com/dquail/NonStationaryBandit
 
-Considerando um ambiente  estacionário,em que cada braço representa o lucro obtido com um determinado preço de produto,
-temos o resultado da recompensa no tempo.
+<div align="justify">
+Cada braço representa o lucro obtido com um determinado preço de produto.
+Dado um braço ai, as realizações de todos os resultados Xj com j < i fornecem informações que podem ser exploradas para o cálculo do UCB no
+valor esperado µi.
+De fato, como µi ≤ µj, podemos usar as realizações obtidas até o momento de Xj como amostras otimistas para estimar µi.
+Consideramos Xi,t a média empírica,na rodada t, dos resultados obtidos puxando o braço ai por Ti(t − 1) rodadas e
+xi,t sua realização
+</div>
 
 Recompensas Médias dos Braços Modelados com a Distribuiçao Beta:
 
