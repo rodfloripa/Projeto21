@@ -31,8 +31,8 @@ Por causa disso, qualquer informação que tenhamos sobre o Braço 1 ou o Braço
 
 Imagine o Braço 1 (o melhor) e o Braço 10 (o pior):
 
-Sem o min (UCB padrão): Você não utilizou muito o Braço 10. Sua incerteza é enorme. Seu teto é 1,0(alto). Você desperdiça muitas rodadas utilizando o Braço 10 para "ver se ele é bom".
-Com o min (UCB1-M): O algoritmo vê que o teto do Braço 1 é 0,6. Mesmo que o Braço 10 não tenha dados, o min diz: "Como o Braço 10 é monotonicamente pior que o Braço 1, seu teto deve ser ≤0,6". Resultado: O "teto alto" do Braço 10 é reduzido instantaneamente. O algoritmo percebe que o Braço 10 é um perdedor muito mais rápido do que perceberia de outra forma.     
+Sem o min (UCB padrão): Você não utilizou muito o Braço 10. Sua incerteza é enorme. Seu teto(upper bound) é 1,0(alto). Você desperdiça muitas rodadas utilizando o Braço 10 para "ver se ele é bom".
+Com o min (UCB1-M): O algoritmo vê que o teto do Braço 1 é 0,6. Mesmo que o Braço 10 não tenha dados, o min diz: "Como o Braço 10 é monotonicamente pior que o Braço 1, seu teto(upper bound) deve ser ≤0,6". Resultado: O "teto alto" do Braço 10 é reduzido instantaneamente. O algoritmo percebe que o Braço 10 é um perdedor muito mais rápido do que perceberia de outra forma.     
 </div>
 
 
