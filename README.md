@@ -14,10 +14,28 @@ Dado um braço ai, as realizações de todos os resultados Xj com j < i fornecem
 valor esperado µi.
 De fato, como µi ≤ µj, podemos usar as realizações obtidas até o momento de Xj como amostras otimistas para estimar µi.
 Consideramos Xi,t a média empírica,na rodada t, dos resultados obtidos puxando o braço ai por Ti(t − 1) rodadas e
-xi,t sua realização
+xi,t sua realização.
+                                                              
 </div>
 
-![Formula](https://github.com/rodfloripa/Projeto21/blob/main/formula.jpg?raw=true)
+  ![Formula](https://github.com/rodfloripa/Projeto21/blob/main/formula.jpg?raw=true)
+<br>
+
+
+O Conhecimento "Monotônico"
+<div align="justify">
+Neste problema específico, sabemos com certeza que as recompensas estão ordenadas da seguinte forma:
+μ1 ≥ μ2 ≥ ... ≥ μK
+
+Por causa disso, qualquer informação que tenhamos sobre o Braço 1 ou o Braço 2 nos diz algo sobre o valor máximo possível do Braço 3. Se nossos dados sugerem que o Braço 1 tem uma recompensa máxima plausível de 0,8, então o Braço 3 não pode ter uma recompensa maior que 0,8, mesmo que seus próprios dados limitados sugiram que possa ser 0,9.
+
+Imagine o Braço 1 (o melhor) e o Braço 10 (o pior):
+
+Sem o min (UCB padrão): Você não utilizou muito o Braço 10. Sua incerteza é enorme. Seu teto é 1,0(alto). Você desperdiça muitas rodadas utilizando o Braço 10 para "ver se ele é bom".
+Com o min (UCB1-M): O algoritmo vê que o teto do Braço 1 é 0,6. Mesmo que o Braço 10 não tenha dados, o min diz: "Como o Braço 10 é monotonicamente pior que o Braço 1, seu teto deve ser ≤0,6". Resultado: O "teto alto" do Braço 10 é reduzido instantaneamente. O algoritmo percebe que o Braço 10 é um perdedor muito mais rápido do que perceberia de outra forma.     
+</div>
+
+
 
 
 Recompensas Médias dos Braços Modelados com a Distribuiçao Beta:
