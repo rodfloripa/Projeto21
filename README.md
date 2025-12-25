@@ -59,4 +59,4 @@ Braço4: 0.6
 Braço5: 0.7
 
 
-![Recompensa no tempo](https://github.com/rodfloripa/Projeto21/blob/main/reward.png?raw=true)
+![Recompensa no tempo](https://github.com/rodfloripa/Projeto21/blob/main/lamento.png?raw=true)
