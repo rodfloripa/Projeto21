@@ -15,13 +15,21 @@ valor esperado µi.
 De fato, como µi ≤ µj, podemos usar as realizações obtidas até o momento de Xj como amostras otimistas para estimar µi.
 Consideramos Xi,t a média empírica,na rodada t, dos resultados obtidos puxando o braço ai por Ti(t − 1) rodadas e
 xi,t sua realização.
+
                                                               
 </div>
 
   ![Formula](https://github.com/rodfloripa/Projeto21/blob/main/formula.jpg?raw=true)
+
+Fig1. UCB1-M
 <br>
+<br>
+<br>
+ ![Formula](https://github.com/rodfloripa/Projeto21/blob/main/formula2.jpg?raw=true)
 
-
+Fig1. UCB-LM
+<br>
+<br>
 O Conhecimento "Monotônico"
 <div align="justify">
 Neste problema específico, sabemos com certeza que as recompensas estão ordenadas da seguinte forma:
