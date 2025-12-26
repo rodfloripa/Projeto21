@@ -1,12 +1,12 @@
 # Projeto21
 Precificação Dinamica com Multi-Armed Bandits
 
-Implementando o artigo "Improving multi-armed bandits for pricing":
-https://trovo.faculty.polimi.it/01papers/trovo2018improving_b.pdf
+Implementando o artigo ["Improving multi-armed bandits for pricing"](
+https://trovo.faculty.polimi.it/01papers/trovo2018improving_b.pdf)
 
-Para ver o desempenho de clássicos algoritmos Bandits em ambiente
-estacionário e não estacionário veja o link:
-https://github.com/dquail/NonStationaryBandit
+[Desempenho de clássicos algoritmos Bandits em ambiente
+estacionário e não estacionário](
+https://github.com/dquail/NonStationaryBandit)
 
 <div align="justify">
 Este artigo apresenta uma evoluçao do UCB classico, com UCB1-M e UCB-LM explorando a monotonicidade dos braços.
